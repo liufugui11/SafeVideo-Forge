@@ -1,0 +1,59 @@
+fastapi>=0.110.0
+uvicorn[standard]>=0.27.0
+pydantic>=2.6.0
+pydantic-settings>=2.1.0
+sqlalchemy>=2.0.0
+alembic>=1.13.0
+aiosqlite>=0.19.0
+
+# Async & Task Queue
+celery>=5.3.0
+redis>=5.0.0
+httpx>=0.26.0
+aiofiles>=23.2.0
+
+# AI / LLM
+openai>=1.12.0
+anthropic>=0.18.0
+tiktoken>=0.6.0
+
+# 国内模型SDK (可选，按需安装)
+# dashscope>=1.14.0      # 通义千问/万相
+# zhipuai>=2.0.0         # 智谱
+# volcengine>=1.0.0      # 豆包
+
+# Video & Audio Processing
+moviepy>=1.0.3
+opencv-python>=4.9.0
+Pillow>=10.2.0
+numpy>=1.26.0
+scipy>=1.12.0
+
+# Audio
+gTTS>=2.5.0
+edge-tts>=6.1.0
+pydub>=0.25.0
+librosa>=0.10.0
+
+# Image Generation (Optional Local)
+# diffusers>=0.26.0
+# transformers>=4.37.0
+# accelerate>=0.26.0
+
+# Utilities
+python-dotenv>=1.0.0
+pyyaml>=6.0.1
+jinja2>=3.1.0
+loguru>=0.7.0
+python-multipart>=0.0.9
+
+# Testing
+pytest>=8.0.0
+pytest-asyncio>=0.23.0
+pytest-cov>=4.1.0
+httpx>=0.26.0
+
+# Development
+black>=24.0.0
+ruff>=0.2.0
+mypy>=1.8.0
